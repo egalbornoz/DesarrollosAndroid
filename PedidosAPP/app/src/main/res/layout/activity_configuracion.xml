@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical"
+    tools:context=".Configuracion">
+
+    <EditText
+
+        android:id="@+id/etIP"
+        android:drawableStart="@drawable/ic_serv"
+        android:drawableLeft="@drawable/ic_serv"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:autofillHints=""
+        android:background="@drawable/edit_text_personalizado"
+        android:hint="@string/etIP"
+        android:inputType=""
+        android:maxLength="20"
+        android:textSize="20sp"
+        tools:targetApi="o" />
+
+    <EditText
+        android:drawableLeft="@drawable/ic_dtba"
+        android:drawableStart="@drawable/ic_dtba"
+        android:id="@+id/etDB"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:autofillHints=""
+        android:background="@drawable/edit_text_personalizado"
+        android:hint="@string/etDB"
+        android:inputType=""
+        android:maxLength="20"
+        android:textSize="20sp"
+        tools:targetApi="o" />
+
+    <EditText
+        android:id="@+id/etUS"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="1dp"
+        android:autofillHints=""
+        android:background="@drawable/edit_text_personalizado"
+        android:drawableStart="@drawable/ic_user"
+        android:drawableLeft="@drawable/ic_user"
+        android:hint="@string/etUS"
+        android:inputType=""
+        android:maxLength="20"
+        android:textSize="20sp"
+        tools:targetApi="o" />
+
+    <EditText
+        android:id="@+id/etPA"
+        android:drawableStart="@drawable/ic_pass"
+        android:drawableLeft="@drawable/ic_pass"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:autofillHints=""
+        android:background="@drawable/edit_text_personalizado"
+        android:hint="@string/etPA"
+        android:inputType="none|textPassword"
+        android:maxLength="20"
+        android:textStyle="bold"
+        tools:targetApi="o"
+         />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/boton_personalizado"
+        android:gravity="center"
+        android:onClick="Guargdar"
+        android:text="@string/btnGuardar"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

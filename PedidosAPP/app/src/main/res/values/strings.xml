@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Sistemas de Pedidos</string>
+    <string name="imLogo">Logo</string>
+    <string name="tvTitulo">Iniciar Sesión</string>
+    <string name="etUsuario">Usuario</string>
+    <string name="etPassword">Contraseña</string>
+    <string name="btnLogin">Iniciar</string>
+    <string name="item1">Configuración</string>
+    <string name="etIP">IP/DNS Servidor</string>
+    <string name="etDB">Nombre Base de Datos</string>
+    <string name="etUS">Nombre de Usuario</string>
+    <string name="etPA">Contraseña</string>
+    <string name="btnGuardar">Guardar</string>
+    <string name="tvCliente">Cliente</string>
+    <string name="txtCliente">Cliente</string>
+    <string name="tvRif"></string>
+    <string name="txtRif">Rif</string>
+    <string name="tvDireccion"></string>
+    <string name="txtDireccion">Dirección</string>
+    <string name="txtTotal">Total</string>
+    <string name="txtProducto">Producto</string>
+    <string name="txtPresentacion">Presentación</string>
+    <string name="txtPrecio">Precio</string>
+    <string name="txtDisponible">Disponible</string>
+    <string name="txtSubTotal">Sub-Total</string>
+    <string name="txtCantidad"></string>
+    <string name="fragDetalles">Detalles del Producto</string>
+    <string name="txtLabel">Detalles Producto</string>
+    <string name="btnAceptar">Aceptar</string>
+    <string name="btn_remove">-</string>
+    <string name="btn_add">+</string>
+</resources>
